@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #films {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+  }
+  
+  #films li {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #films li:hover {
+    background-color: #ccc;
+  }
+  
+  #details {
+    flex-grow: 1;
+    padding: 1em;
+  }
+  
+  #details h2 {
+    margin-top: 0;
+  }
+  
+  #details img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  #buy-ticket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+  }
+  
+  #buy-ticket button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  #buy-ticket span {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
